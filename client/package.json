@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "echo VITE_API_URL=https://chatting-application-558r.onrender.com > .env && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
